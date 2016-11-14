@@ -1,8 +1,10 @@
 name: rx_ssh
-title: InSpec Profile
-maintainer: The Authors
-copyright: The Authors
-copyright_email: you@example.com
+title: SSH Inspec Tests
+maintainer: rx007
+copyright: rx007
+copyright_email: rx007@me.com
 license: All Rights Reserved
-summary: An InSpec Compliance Profile
-version: 0.1.0
+summary: Verify that SSH Server and SSH Client are configured securely
+version: 0.2.0
+supports:
+  - os-family: linux
